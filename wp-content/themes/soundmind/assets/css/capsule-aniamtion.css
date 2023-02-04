@@ -1,0 +1,98 @@
+
+.roll  {
+  position: absolute;
+}
+.roll  div {
+  position: absolute;
+}
+
+
+.scroll {
+  width: 100%;
+  height: 715px;
+  transform-origin: center;
+  opacity:1;
+  margin: auto;
+  position: relative;
+}
+
+.scroll .roll.left {
+  left: -20%;
+}
+
+.scroll .roll.right {
+  right: -20%;
+}
+
+.scroll .roll {
+  width: 387px;
+  height: 100%;
+}
+
+
+
+
+.roll.left  {
+    transform: rotate(14deg);
+}
+
+.roll.right {
+    transform: rotate(-14deg);
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.capsule-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.ingredients-item {
+    position: absolute;
+    width: auto;
+    text-align: center;
+    transition: 0.5s;
+}
+.capsicum-item1 {
+    left: 450px;
+    top: 230px;
+    transform: 'scale(1)';
+    z-index: 2;
+}
+.capsicum-item2 {
+    left: 410px;
+    top: 90px;
+}
+.capsicum-item3 {
+    left: 379px;
+    top: 197px;
+    z-index: 1;
+}
+.capsicum-item4 {
+    right: 64.5%;
+    top: 55px;
+}
+.capsicum-item5 {
+    right: 67%;
+    top: 57px;
+}
+.capsicum-item6 {
+    right: 59%;
+    top: 114px;
+}
+.capsicum-item7 {
+    left: 190px;
+    top: 390px;
+}

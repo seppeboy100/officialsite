@@ -1,0 +1,22 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <filter id="Ellipse_17" x="0" y="0" width="27" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#7054ea" flood-opacity="0.302" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <circle id="Ellipse_17-2" data-name="Ellipse 17" cx="13.5" cy="13.5" r="13.5" fill="#200173"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_17)">
+      <circle id="Ellipse_17-3" data-name="Ellipse 17" cx="13.5" cy="13.5" r="13.5" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_23" data-name="Group 23" transform="translate(-436 -524)">
+    <line id="Line_1" data-name="Line 1" x2="13" transform="translate(441.5 537.582)" fill="none" stroke="#e5ecff" stroke-linecap="round" stroke-width="1"/>
+    <path id="Path_6" data-name="Path 6" d="M2498.748,532.737l3.938,4.981-3.938,4.709" transform="translate(-2048)" fill="none" stroke="#e5ecff" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>
