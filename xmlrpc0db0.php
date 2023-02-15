@@ -2,7 +2,7 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://www.soundmind.app</homePageLink>
+		<homePageLink>https://soundmind.pages.dev</homePageLink>
 		<apis>
 			<api name="WordPress" blogID="1" preferred="true" apiLink="https://www.soundmind.app/xmlrpc.php" />
 			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://www.soundmind.app/xmlrpc.php" />
